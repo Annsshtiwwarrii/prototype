@@ -53,16 +53,44 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:orientation="vertical"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
         android:gravity="center"
-        android:padding="16dp">
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:background="@drawable/bg_bottom_bar"
+
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp">
 
         <ImageView
-            android:id="@+id/ivCenterIcon"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:padding="12dp" />
+            android:id="@+id/ivIcon1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/iconss"
+            android:tint="@color/black"
+            android:scaleType="centerInside"
+            android:background="@drawable/bg_icon_circle"
+            android:padding="8dp" />
+
+        <ImageView
+            android:id="@+id/ivIcon2"
+            android:layout_width="40dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/list"
+            android:scaleType="centerInside"
+            android:tint="@color/black"
+            android:padding="8dp" />
+
+        <ImageView
+            android:id="@+id/ivIcon3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/icons"
+            android:scaleType="centerInside"
+            android:padding="8dp" />
 
     </LinearLayout>
 
